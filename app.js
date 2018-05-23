@@ -16,3 +16,10 @@ function mailUser(){
 	var email = document.getElementById("mail").value;
 	email = document.getElementById("print").innerHTML = "Tu correo es :  " + email;
 }
+//funcion mostrar piñericosas
+function btnpresi(){
+	document.getElementById("pinericosas").style.display = "block";
+}
+function cerrar(){
+	document.getElementById('pinericosas').style.display= "none";
+}
