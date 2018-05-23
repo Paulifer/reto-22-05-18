@@ -7,6 +7,12 @@ function ysblf(){
 	document.getElementById("infoBetty").style.display = "block";
 }
 
-function close(){
+function cierra(){
 	document.getElementById("infoBetty").style.display = "none";
+}
+// segunda parte Paulina huañaco
+//pedir correo e imprimirlo
+function mailUser(){
+	var email = document.getElementById("mail").value;
+	email = document.getElementById("print").innerHTML = "Tu correo es :  " + email;
 }
