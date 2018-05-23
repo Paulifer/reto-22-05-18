@@ -3,8 +3,37 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-	
+	<div class="content">
+		<div id="welcome">
+			<p>Ingresa tu nombre</p>
+			<input type="text" id="name">
+			<input type="button" class="btnName" name="enviar" value="Enviar Nombre" onclick="nameUser()">
+			<p id="hi"></p>
+		</div>
+		<p>¿Quieres saber 10 curiosidades de Yo soy Betty la fea?</p>
+		<input type="button" name="enviar" value="Si Quiero" onclick="ysblf()">
+		<div id="infoBetty" class="curiosidadesBetty">
+			<h1><i>10 curiosidades de "yo soy Betty la fea"</i></h1>
+			<img src="betty.jpg" alt="">
+			<p><b>1.-</b> En el 2010 entró al libro de los Guinness World Records como la telenovela más exitosa de la historia, al ser emitida en más de 180 países, ser doblada a 25 idiomas y al contar con al menos unas 28 adaptaciones alrededor del mundo.</p>
+			<p><b>2.-</b> Se realizaron 22 adaptaciones</p>
+			<p><b>3.-</b> El cuartel de las feas también tenía peleas entre ellas, unas daban autógrafos y fotos mientras que a otras eso les parecía terrible, por eso discutían a diario.</p>
+			<p><b>4.-</b> Los brackets de Ana María Orozco de su personaje de Betty los tiraron a la basura por error, ya que ella los envolvió en un papel higiénico, cuando empezaron a grabar no aparecían y los encontraron en la basura, de allá los sacaron y con agua caliente los lavaron para que la actriz los usara.</p>
+			<p><b>5.-</b> Siete millones de colombianos vieron el capítulo en que don Armando le dio a Betty su primer Beso. Ese número equivale a la población de Bogotá en la época de los 90.</p>
+			<p><b>6.-</b> Desde su lanzamiento, en octubre de 1999, 'Yo soy Betty, la fea' se convirtió en el programa más visto de la televisión colombiana. En ese mes alcanzó 36 puntos de rating, cifra récord para el primer mes, que se incrementó hasta alcanzar un promedio de 45 puntos, con picos que han superado los 53.</p>
+			<p><b>7.-</b> Cerca de 30.000 muñecas de Betty fueron distribuidas por toda Colombia.</p>
+			<p><b>8.- </b>El capítulo final es reconocido como la producción televisiva más vista en Latinoamérica.</p>
+			<p><b>9.-</b> El capítulo 162, del 20 de junio de 2000, tuvo una audiencia record de 54,7 puntos. Superó, y por bastante, los partidos de Colombia – Argentina y Colombia – Brasil por las eliminatorias al mundial de 2002.</p>
+			<p><b>10.-</b> Al año de comenzar a grabarse la telenovela, al actor Jorge Enrique Abello, se le detectó una hipertrofia (ensanchamiento) en uno de sus ventrículos, como consecuencia de las emociones violentas que tenía que interpretar en su papel de "Armando Mendoza" y que lo puso en peligro durante varios años, debiendo así, hacerse controles cardiológicos anuales de por vida, ya que su condición era comparable a la de los atletas olímpicos, además de las personas que fallecen por muerte súbita.</p>
+			<input type="button" name="cerrar" value="Cerrar Ventana" onclick="close()">
+
+		</div>
+		
+
+	</div>
+	<script src="app.js"></script>
 </body>
 </html>
